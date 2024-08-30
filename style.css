@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+   
+}
+header {
+    margin-top: 3rem;
+}
+
+input[name="inputGame"] {
+    margin: 0;
+    padding: 0;
+    width: 7rem;
+    height: 7rem;
+    font-size: 8rem;
+    text-align: center;
+}
+input[name="playerOnTheTurn"], input[name="winnerOfTheRound"] {
+    margin-left: 1rem;
+    width: 6rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.display-flex {
+    display: flex;
+}
+.win {
+    background-color: #0f0;
+}
+#button-reset {
+    margin-left:10px;
+}
+
+#winner {
+    margin-top: 3rem;
+}
+#players {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    width: 50rem;
+    
+}
+#inputs {
+    display: grid;
+    margin: 0 auto;
+    padding-top: 4rem;
+    grid-template-columns:repeat(3,1fr);
+    gap: 0;
+}

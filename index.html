@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Tic-tac-toe</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Tic-Tac-Toe</h1>
+    </header>
+    
+        <div id="players">
+          <label for="player1">Jogador 1: </label>
+          <input type="text" name="player1" id="player1" />
+
+          <label for="player2">Jogador 2: </label>
+          <input type="text" name="player2" id="player2" />
+
+          <button type="button" id="startGame">Começar o jogo</button>
+        </div>
+      
+      <div id="playerOnTurn" class="display-flex"><h2>Jogador da vez: </h2>
+      <input type="text" id="playerOnTheTurn" name="playerOnTheTurn" disabled>
+    </div>
+      <div id="inputs">
+        <input type="text" name="inputGame" id="input00" disabled />
+        <input type="text" name="inputGame" id="input01" disabled />
+        <input type="text" name="inputGame" id="input02" disabled />
+        <input type="text" name="inputGame" id="input10" disabled />
+        <input type="text" name="inputGame" id="input11" disabled />
+        <input type="text" name="inputGame" id="input12" disabled />
+        <input type="text" name="inputGame" id="input20" disabled />
+        <input type="text" name="inputGame" id="input21" disabled />
+        <input type="text" name="inputGame" id="input22" disabled />
+      </div>
+      <div id="winner" class="display-flex">
+        <h2>Vencedor do Round: </h2>
+        <input type="text" id="winnerOfTheRound" name="winnerOfTheRound" disabled>
+        <button type="button" id = "button-reset">Resetar o jogo</button>
+      </div>
+    </main>
+  </body>
+</html>
